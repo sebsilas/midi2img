@@ -4,7 +4,10 @@
 \alias{midi2img}
 \title{Convert a midi file to an image of its sheet music}
 \usage{
-midi2img(f)
+midi2img(
+  mscore_location = "/Applications/MuseScore 3.app/Contents/MacOS/mscore",
+  f
+)
 }
 \arguments{
 \item{f}{}
